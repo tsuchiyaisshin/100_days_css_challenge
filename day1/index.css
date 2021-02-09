@@ -31,6 +31,12 @@
     z-index: 50;
 }
 
+.hamburger-menu:hover .hamburger-line1,
+.hamburger-menu:hover .hamburger-line2,
+.hamburger-menu:hover .hamburger-line3 {
+    background-color: #fff;
+}
+
 .hamburger-line1,
 .hamburger-line2,
 .hamburger-line3
@@ -54,6 +60,11 @@
 
 .hamburger-line3 {
     animation: animate-line-3-rev .7s ease-in-out;
+}
+
+.no-animation {
+    -webkit-animation: none !important;
+    animation: none !important;
 }
 
 .mt-16 {
