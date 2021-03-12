@@ -4,4 +4,4 @@
 ##Compile SCSS tp CSS
 ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 <br>
-`sass test.scss:test.css`
+`sass style.scss:style.css`
